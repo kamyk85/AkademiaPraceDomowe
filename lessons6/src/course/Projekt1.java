@@ -6,21 +6,19 @@ public class Projekt1
 {
 
 	public static void main(String[] args) 
-	{
-		//boolean party = false;
-		
+	{		
 		Scanner input = new Scanner (System.in);
 		
 		System.out.println ("Czy planujesz imprezê? (Jeœli tak napisz true, jeœli nie - false)");
 		boolean party = input.nextBoolean();
 		
-		System.out.println ("Podaj iloœæ sera w gramach");
+		System.out.println ("Podaj iloœæ posiadanego sera w gramach");
 		int cheese = input.nextInt();
 		
-		System.out.println("Podaj iloœæ mleka w litrach");
+		System.out.println("Podaj iloœæ posiadanego mleka w litrach");
 		int milk = input.nextInt();
 		
-		System.out.println("Podaj iloœæ jajek w sztukach");
+		System.out.println("Podaj iloœæ posiadanych jajek w sztukach");
 		int eggs = input.nextInt();
 		
 		int cheeseExpected = 700;
